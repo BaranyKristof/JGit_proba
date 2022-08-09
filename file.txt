@@ -1,5 +1,7 @@
-Tag: v1.3
+Tag: v1.2
 
 Alma
 
-Kör
+Körte
+
+Szilva
