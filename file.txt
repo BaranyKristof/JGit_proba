@@ -1,7 +1,5 @@
-Tag: v1.2
+Tag: v1.1
 
 Alma
 
 Körte
-
-Szilva
