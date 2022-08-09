@@ -1,7 +1,7 @@
-Tag: v1.2
+Tag: v1.2.2
 
 Alma
 
-Körte
-
 Szilva
+
+Barack
