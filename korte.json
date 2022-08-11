@@ -1,0 +1,170 @@
+{
+  "type" : "machine",
+  "states" : [ {
+    "type" : "state",
+    "name" : "A",
+    "entry" : "fd",
+    "exit" : "4",
+    "composite" : null,
+    "x" : 235,
+    "y" : 115,
+    "_Do" : "asd"
+  }, {
+    "type" : "state",
+    "name" : "B",
+    "entry" : "3",
+    "exit" : "5",
+    "composite" : null,
+    "x" : 650,
+    "y" : 250,
+    "_Do" : "adfs"
+  }, {
+    "type" : "state",
+    "name" : "C",
+    "entry" : "df",
+    "exit" : "gh",
+    "composite" : null,
+    "x" : 450,
+    "y" : 400,
+    "_Do" : "wer"
+  }, {
+    "type" : "state",
+    "name" : "D",
+    "entry" : "A",
+    "exit" : "E",
+    "composite" : null,
+    "x" : 150,
+    "y" : 300,
+    "_Do" : "D"
+  }, {
+    "type" : "state",
+    "name" : "Init",
+    "entry" : null,
+    "exit" : null,
+    "composite" : null,
+    "x" : 30,
+    "y" : 30,
+    "_Do" : null
+  }, {
+    "type" : "state",
+    "name" : "Exit",
+    "entry" : null,
+    "exit" : null,
+    "composite" : null,
+    "x" : 460,
+    "y" : 285,
+    "_Do" : null
+  } ],
+  "links" : [ {
+    "from" : "A",
+    "to" : "A",
+    "trigger" : "2",
+    "guard" : "alma",
+    "effect" : "5"
+  }, {
+    "from" : "A",
+    "to" : "B",
+    "trigger" : "3",
+    "guard" : "rel",
+    "effect" : "-"
+  }, {
+    "from" : "A",
+    "to" : "C",
+    "trigger" : "6",
+    "guard" : "hal",
+    "effect" : "r"
+  }, {
+    "from" : "D",
+    "to" : "A",
+    "trigger" : "3",
+    "guard" : "-",
+    "effect" : "-"
+  }, {
+    "from" : "D",
+    "to" : "B",
+    "trigger" : "5",
+    "guard" : "-",
+    "effect" : "-"
+  }, {
+    "from" : "D",
+    "to" : "C",
+    "trigger" : "sd",
+    "guard" : "-",
+    "effect" : "-"
+  }, {
+    "from" : "B",
+    "to" : "A",
+    "trigger" : "tr",
+    "guard" : "dal",
+    "effect" : "-"
+  }, {
+    "from" : "B",
+    "to" : "B",
+    "trigger" : "f",
+    "guard" : "fal",
+    "effect" : "g"
+  }, {
+    "from" : "B",
+    "to" : "C",
+    "trigger" : "9",
+    "guard" : "fel",
+    "effect" : "3"
+  }, {
+    "from" : "C",
+    "to" : "A",
+    "trigger" : "x",
+    "guard" : "kel",
+    "effect" : "c"
+  }, {
+    "from" : "C",
+    "to" : "B",
+    "trigger" : "-",
+    "guard" : "sel",
+    "effect" : "tt"
+  }, {
+    "from" : "C",
+    "to" : "C",
+    "trigger" : "h",
+    "guard" : "tal",
+    "effect" : "d"
+  }, {
+    "from" : "C",
+    "to" : "Exit",
+    "trigger" : "-",
+    "guard" : "-",
+    "effect" : "-"
+  }, {
+    "from" : "Init",
+    "to" : "A",
+    "trigger" : "-",
+    "guard" : "-",
+    "effect" : "-"
+  }, {
+    "from" : "A",
+    "to" : "D",
+    "trigger" : "-",
+    "guard" : "ad",
+    "effect" : "-"
+  }, {
+    "from" : "B",
+    "to" : "D",
+    "trigger" : "-",
+    "guard" : "ds",
+    "effect" : "-"
+  }, {
+    "from" : "C",
+    "to" : "D",
+    "trigger" : "-",
+    "guard" : "fs",
+    "effect" : "-"
+  } ],
+  "start" : "Init",
+  "end" : "Exit",
+  "name" : "testStateMachine",
+  "entry" : null,
+  "exit" : null,
+  "composite" : null,
+  "x" : 0,
+  "y" : 0,
+  "_Do" : null
+}
