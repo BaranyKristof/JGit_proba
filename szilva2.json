@@ -74,22 +74,10 @@
     "guard" : "hal",
     "effect" : "r"
   }, {
-    "from" : "D",
-    "to" : "A",
-    "trigger" : "3",
-    "guard" : "-",
-    "effect" : "-"
-  }, {
-    "from" : "D",
-    "to" : "B",
-    "trigger" : "5",
-    "guard" : "-",
-    "effect" : "-"
-  }, {
-    "from" : "D",
-    "to" : "C",
-    "trigger" : "sd",
-    "guard" : "-",
+    "from" : "A",
+    "to" : "D",
+    "trigger" : "-",
+    "guard" : "ad",
     "effect" : "-"
   }, {
     "from" : "B",
@@ -106,9 +94,15 @@
   }, {
     "from" : "B",
     "to" : "C",
-    "trigger" : "9",
+    "trigger" : "7",
     "guard" : "fel",
     "effect" : "3"
+  }, {
+    "from" : "B",
+    "to" : "D",
+    "trigger" : "-",
+    "guard" : "ds",
+    "effect" : "-"
   }, {
     "from" : "C",
     "to" : "A",
@@ -129,8 +123,32 @@
     "effect" : "d"
   }, {
     "from" : "C",
+    "to" : "D",
+    "trigger" : "-",
+    "guard" : "fs",
+    "effect" : "-"
+  }, {
+    "from" : "C",
     "to" : "Exit",
     "trigger" : "-",
+    "guard" : "-",
+    "effect" : "-"
+  }, {
+    "from" : "D",
+    "to" : "A",
+    "trigger" : "3",
+    "guard" : "-",
+    "effect" : "-"
+  }, {
+    "from" : "D",
+    "to" : "B",
+    "trigger" : "5",
+    "guard" : "-",
+    "effect" : "-"
+  }, {
+    "from" : "D",
+    "to" : "C",
+    "trigger" : "sd",
     "guard" : "-",
     "effect" : "-"
   }, {
@@ -138,24 +156,6 @@
     "to" : "A",
     "trigger" : "-",
     "guard" : "-",
-    "effect" : "-"
-  }, {
-    "from" : "A",
-    "to" : "D",
-    "trigger" : "-",
-    "guard" : "ad",
-    "effect" : "-"
-  }, {
-    "from" : "B",
-    "to" : "D",
-    "trigger" : "-",
-    "guard" : "ds",
-    "effect" : "-"
-  }, {
-    "from" : "C",
-    "to" : "D",
-    "trigger" : "-",
-    "guard" : "fs",
     "effect" : "-"
   } ],
   "start" : "Init",
