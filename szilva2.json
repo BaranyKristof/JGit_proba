@@ -94,7 +94,7 @@
   }, {
     "from" : "B",
     "to" : "C",
-    "trigger" : "7",
+    "trigger" : "5",
     "guard" : "fel",
     "effect" : "3"
   }, {
