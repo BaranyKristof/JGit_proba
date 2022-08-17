@@ -58,7 +58,7 @@
   "links" : [ {
     "from" : "A",
     "to" : "A",
-    "trigger" : "0",
+    "trigger" : "3",
     "guard" : "alma",
     "effect" : "5"
   }, {
