@@ -6,8 +6,8 @@
     "entry" : "fd",
     "exit" : "4",
     "composite" : null,
-    "x" : 345,
-    "y" : 191,
+    "x" : 400,
+    "y" : 229,
     "_Do" : "asd"
   }, {
     "type" : "state",
@@ -15,8 +15,8 @@
     "entry" : "3",
     "exit" : "5",
     "composite" : null,
-    "x" : 760,
-    "y" : 326,
+    "x" : 815,
+    "y" : 364,
     "_Do" : "adfs"
   }, {
     "type" : "state",
@@ -24,8 +24,8 @@
     "entry" : "df",
     "exit" : "gh",
     "composite" : null,
-    "x" : 560,
-    "y" : 476,
+    "x" : 615,
+    "y" : 514,
     "_Do" : "wer"
   }, {
     "type" : "state",
@@ -33,8 +33,8 @@
     "entry" : "A",
     "exit" : "E",
     "composite" : null,
-    "x" : 260,
-    "y" : 376,
+    "x" : 315,
+    "y" : 414,
     "_Do" : "D"
   }, {
     "type" : "state",
@@ -42,8 +42,8 @@
     "entry" : null,
     "exit" : null,
     "composite" : null,
-    "x" : 58,
-    "y" : 58,
+    "x" : 72,
+    "y" : 72,
     "_Do" : null
   }, {
     "type" : "state",
@@ -51,14 +51,14 @@
     "entry" : null,
     "exit" : null,
     "composite" : null,
-    "x" : 488,
-    "y" : 313,
+    "x" : 502,
+    "y" : 327,
     "_Do" : null
   } ],
   "links" : [ {
     "from" : "A",
     "to" : "A",
-    "trigger" : "5",
+    "trigger" : "4",
     "guard" : "alma",
     "effect" : "5"
   }, {
