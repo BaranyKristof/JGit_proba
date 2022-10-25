@@ -160,7 +160,7 @@
   } ],
   "start" : "Init",
   "end" : "Exit",
-  "name" : "testStateMachine",
+  "name" : "TODO",
   "entry" : null,
   "exit" : null,
   "composite" : null,
